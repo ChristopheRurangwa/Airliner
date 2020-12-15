@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/christopherurangwa/CLionProjects/untitled2/Airplanes.h
+string
+-
+
+/Users/christopherurangwa/CLionProjects/untitled2/Cities.h
+Places.h
+/Users/christopherurangwa/CLionProjects/untitled2/Places.h
+
+/Users/christopherurangwa/CLionProjects/untitled2/Passenger.h
+string
+-
+
+/Users/christopherurangwa/CLionProjects/untitled2/Places.cpp
+Places.h
+/Users/christopherurangwa/CLionProjects/untitled2/Places.h
+iostream
+-
+Passenger.h
+/Users/christopherurangwa/CLionProjects/untitled2/Passenger.h
+Airplanes.h
+/Users/christopherurangwa/CLionProjects/untitled2/Airplanes.h
+Cities.h
+/Users/christopherurangwa/CLionProjects/untitled2/Cities.h
+
+/Users/christopherurangwa/CLionProjects/untitled2/Places.h
+string
+-
+
